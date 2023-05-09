@@ -1,5 +1,5 @@
 # Spark-E1
-Spark E1 is the Pakistan's first 3d printer control board. It is a 32 bit board that runs on the dual core, RISC-V based eSP32 microcontroller. It is cheaper than the Arduino mega + RAMPS setup that most people use. Plus the RAMPS setup is 8 bit while this board is 32 bit. I hope we will help the community with this board and make even better boards in the future InshaAllah!
+Spark E1 is the Pakistan's first 3d printer control board. It is a 32 bit board that runs on the dual core, RISC-V based ESP32 microcontroller. It is cheaper than the Arduino mega + RAMPS setup that most people use. Plus the RAMPS setup is 8 bit while this board is 32 bit. I hope we will help the community with this board and make even better boards in the future InshaAllah!
 ![Spark E1 picture](https://github.com/UmerSoftwares/Spark-E1/blob/main/hardware/photo.jpg)
 
 ## Hardware
