@@ -1,11 +1,11 @@
-#Marlin Configuration from scratch
+# Marlin Configuration from scratch
 Here are the instructions to configure marlin for Spark E1
 
 Download the pins_custom.h from this folder and place it in `Marlin/src/pins` folder
 
 Now make changes in the following files
 
-##platformio.ini
+## platformio.ini
 Use
 `default_envs = custom`
 and add
@@ -14,7 +14,7 @@ and add
 extends                = env:esp32
 ```
 
-##configuration.h
+## configuration.h
 Use
 `#define MOTHERBOARD BOARD_CUSTOM`
 and 
@@ -24,7 +24,7 @@ and
 #define SERIAL_PORT_2 -1
 ```
 
-##configuration_adv.h
+## configuration_adv.h
 Uncomment
 `#define ESP3D_WIFISUPPORT`
 and
